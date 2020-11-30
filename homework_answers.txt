@@ -1,0 +1,9 @@
+The create_router.js file creates the generic route paths.  The server.js is then responsible for defining the routes of the 'games' resource
+The client is responsible for all front end files/views and the server is responsible for all the back end functionality.
+Server.js is responsible for creating the routes and connecting to the database
+the gamesRouter takes the generic routes that were set up in create_router.js and populates them with the games data so that the correct endpoint is called.
+The client communicates with the server by using a FETCH request with information wrapped up in information
+The optional second parameter takes in an init object, in this application it allows up to persist the new object to the database.
+http://localhost:3000/api/games/
+The MongodbDriver allows for callback and promise based interaction with the database
+the objectID is a unique identifier for each item in the database.
